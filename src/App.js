@@ -4,6 +4,7 @@ import { Switch, Route } from "react-router-dom";
 
 import HelloWorld from "./components/HelloWorld";
 import Routine from "./components/Routine";
+import WorkoutList from './components/workout-section-page/WorkoutList.jsx';
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
           <HelloWorld />
         </Route>
         <Route path="/routine">
-          <Routine />
+          <WorkoutList />
         </Route>
       </Switch>
+
     </div>
   );
 }
