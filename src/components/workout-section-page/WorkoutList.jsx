@@ -12,6 +12,7 @@ function WorkoutList() {
   <Card.Header> Exercise Name </Card.Header>
   <Card.Body>
 
+<h1> Set 1 </h1>
     <Card.Title>
     <Form>
   <Form.Group controlId="exampleForm.ControlSelect1">
@@ -31,10 +32,73 @@ function WorkoutList() {
     <Form.Label>How many reps do you want?</Form.Label>
     <Form.Control as="select">
       <option>5</option>
+      <option>4</option>
+      <option>3</option>
+      <option>2</option>
+      <option>1</option>
+      <option>0</option>
+
+    </Form.Control>
+  </Form.Group>
+</Form>   
+</Card.Title> 
+<br/>
+<h1> Set 2 </h1>
+    <Card.Title>
+    <Form>
+  <Form.Group controlId="exampleForm.ControlSelect1">
+    <Form.Label>How much weight do you want?</Form.Label>
+    <Form.Control as="select">
+      <option>125 lbs</option>
+      <option>125 lbs</option>
+      <option>125 lbs</option>
+      <option>125 lbs</option>
+      <option>125 lbs</option>
+
+
+    </Form.Control>
+  </Form.Group>
+<br/>
+  <Form.Group controlId="exampleForm.ControlSelect1">
+    <Form.Label>How many reps do you want?</Form.Label>
+    <Form.Control as="select">
       <option>5</option>
+      <option>4</option>
+      <option>3</option>
+      <option>2</option>
+      <option>1</option>
+      <option>0</option>
+
+    </Form.Control>
+  </Form.Group>
+</Form>   
+</Card.Title> 
+<br/>
+<h1> Set 3 </h1>
+    <Card.Title>
+    <Form>
+  <Form.Group controlId="exampleForm.ControlSelect1">
+    <Form.Label>How much weight do you want?</Form.Label>
+    <Form.Control as="select">
+      <option>125 lbs</option>
+      <option>125 lbs</option>
+      <option>125 lbs</option>
+      <option>125 lbs</option>
+      <option>125 lbs</option>
+
+
+    </Form.Control>
+  </Form.Group>
+<br/>
+  <Form.Group controlId="exampleForm.ControlSelect1">
+    <Form.Label>How many reps do you want?</Form.Label>
+    <Form.Control as="select">
       <option>5</option>
-      <option>5</option>
-      <option>5</option>
+      <option>4</option>
+      <option>3</option>
+      <option>2</option>
+      <option>1</option>
+      <option>0</option>
 
     </Form.Control>
   </Form.Group>
