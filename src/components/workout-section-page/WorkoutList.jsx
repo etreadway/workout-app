@@ -1,6 +1,6 @@
 import React from "react"; 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card, Button, Form } from 'react-bootstrap';
+import { Card, Button, Form, Container, Row, Col } from 'react-bootstrap';
 import './Workoutpage.CSS';
 
 function WorkoutList() {
@@ -12,11 +12,19 @@ function WorkoutList() {
   <Card.Header> Exercise Name </Card.Header>
   <Card.Body>
 
+
+
 <h1> Set 1 </h1>
     <Card.Title>
     <Form>
+
+    <Container>
+  <Row>
+    <Col>
+   
+
   <Form.Group controlId="exampleForm.ControlSelect1">
-    <Form.Label>How much weight do you want?</Form.Label>
+    <Form.Label>Weight</Form.Label>
     <Form.Control as="select">
       <option>125 lbs</option>
       <option>125 lbs</option>
@@ -27,9 +35,11 @@ function WorkoutList() {
 
     </Form.Control>
   </Form.Group>
+  </Col>
 <br/>
+<Col>
   <Form.Group controlId="exampleForm.ControlSelect1">
-    <Form.Label>How many reps do you want?</Form.Label>
+    <Form.Label>Reps</Form.Label>
     <Form.Control as="select">
       <option>5</option>
       <option>4</option>
@@ -40,14 +50,24 @@ function WorkoutList() {
 
     </Form.Control>
   </Form.Group>
+  </Col>
+  </Row>
+</Container>
+
 </Form>   
 </Card.Title> 
 <br/>
 <h1> Set 2 </h1>
-    <Card.Title>
+<Card.Title>
     <Form>
+
+    <Container>
+  <Row>
+    <Col>
+   
+
   <Form.Group controlId="exampleForm.ControlSelect1">
-    <Form.Label>How much weight do you want?</Form.Label>
+    <Form.Label>Weight</Form.Label>
     <Form.Control as="select">
       <option>125 lbs</option>
       <option>125 lbs</option>
@@ -58,9 +78,11 @@ function WorkoutList() {
 
     </Form.Control>
   </Form.Group>
+  </Col>
 <br/>
+<Col>
   <Form.Group controlId="exampleForm.ControlSelect1">
-    <Form.Label>How many reps do you want?</Form.Label>
+    <Form.Label>Reps</Form.Label>
     <Form.Control as="select">
       <option>5</option>
       <option>4</option>
@@ -71,14 +93,24 @@ function WorkoutList() {
 
     </Form.Control>
   </Form.Group>
+  </Col>
+  </Row>
+</Container>
+
 </Form>   
 </Card.Title> 
 <br/>
 <h1> Set 3 </h1>
-    <Card.Title>
+<Card.Title>
     <Form>
+
+    <Container>
+  <Row>
+    <Col>
+   
+
   <Form.Group controlId="exampleForm.ControlSelect1">
-    <Form.Label>How much weight do you want?</Form.Label>
+    <Form.Label>Weight</Form.Label>
     <Form.Control as="select">
       <option>125 lbs</option>
       <option>125 lbs</option>
@@ -89,9 +121,11 @@ function WorkoutList() {
 
     </Form.Control>
   </Form.Group>
+  </Col>
 <br/>
+<Col>
   <Form.Group controlId="exampleForm.ControlSelect1">
-    <Form.Label>How many reps do you want?</Form.Label>
+    <Form.Label>Reps</Form.Label>
     <Form.Control as="select">
       <option>5</option>
       <option>4</option>
@@ -102,6 +136,10 @@ function WorkoutList() {
 
     </Form.Control>
   </Form.Group>
+  </Col>
+  </Row>
+</Container>
+
 </Form>   
 </Card.Title> 
 <br/>
@@ -115,3 +153,5 @@ function WorkoutList() {
   }
 
 export default WorkoutList
+
+
