@@ -18,6 +18,12 @@ function WorkoutList() {
     <Form.Label>How much weight do you want?</Form.Label>
     <Form.Control as="select">
       <option>125 lbs</option>
+      <option>125 lbs</option>
+      <option>125 lbs</option>
+      <option>125 lbs</option>
+      <option>125 lbs</option>
+
+
     </Form.Control>
   </Form.Group>
 <br/>
@@ -25,6 +31,11 @@ function WorkoutList() {
     <Form.Label>How many reps do you want?</Form.Label>
     <Form.Control as="select">
       <option>5</option>
+      <option>5</option>
+      <option>5</option>
+      <option>5</option>
+      <option>5</option>
+
     </Form.Control>
   </Form.Group>
 </Form>   
