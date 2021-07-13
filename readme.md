@@ -36,7 +36,7 @@ Front-End:
 **[npm install](https://www.npmjs.com/package/npm-install**)**
 
 Back-End:
-**[npm install](https://dev.to/lukeocodes/enny-stack-the-express-ngrok-and-nodemon-stack-23j)**
+**[MongoDB](https://docs.mongodb.com/manual/installation/)**
 
 ## Technical Framework Usage: MERN Stack
 
@@ -46,7 +46,7 @@ Back-End:
 - Node.js
 
 ## Code Framework Style
-- Material UI
+<!-- - Material UI -->
 - Custom Styled Components
 
 
@@ -54,14 +54,14 @@ Back-End:
 Custom Secured Data usage.
 
 ## Build Status
-Deployed@**[SquadMate](https://www.squadmate.app/)**
+Deployed@**[****Add Website HERE****](https://www.squadmate.app/)**
 
 ## Usage
 Sign-in and/or Sign-up. There is an admin and user option, each having their own documentation privileges to navigate to with buttons. Administration will have ability to upload documents and print team emergency cards. User will have ability to update emergency card information and complete forms needed by admin.
 
 
   <h4>Components for each setup:</h4>
-
+EDIT THIS TOWARDS / AT COMPLETION
         Administration          | Home Landing     | Team User
        ------------------------- ------------------ ------------
         Admin HomePage          | Sign-in Button   | User HomePage
@@ -73,34 +73,36 @@ Sign-in and/or Sign-up. There is an admin and user option, each having their own
         PermissionsComponent    |                  |
 
 ## Stretch Goals
-- [ ] Team Chatrooms.
+- ADD STUFF HERE
+<!-- - [ ] Team Chatrooms.
 - [ ] Calendar integrations.
 - [ ] Coach and Manager Notification Board.
-- [ ] Turn the Custom Application into more widely used app.
-- [ ] Random Picture Display of the Events, Teams or Individual players.
+- [ ] Turn the Custom Application into more widely used app. -->
+<!-- - [ ] Random Picture Display of the Events, Teams or Individual players.
 - [ ] AuthO is a third(3'd) party HIPPA approved and compliant identity management system.
-- [ ] Ability to give message alerts to parents if a telephone number or signed off form is incomplete.
+- [ ] Ability to give message alerts to parents if a telephone number or signed off form is incomplete. -->
 
 ## Challenges
-- Time managing the two(2)-week sprint with all the features we would have liked to include in the project.
+- ADD STUFF
+<!-- - Time managing the two(2)-week sprint with all the features we would have liked to include in the project.
 - Five(5) developers branching off to build features that were dependant on each other.
-- Working with a team of developers on Zoom meetings across the USA and meeting for the first time.
+- Working with a team of developers on Zoom meetings across the USA and meeting for the first time. -->
 
 ## Triumphs
-- The ability to update a Profile Photo.
+- ADD STUFF
+<!-- - The ability to update a Profile Photo.
 - Communication between team when pushing up code from a branch without merge conflicts was incredibly efficient.
-- Applied the knowledge form the sixteen(16)-week coarse at DigitalCrafts Bootcamp to incorporated that knowledge into using MangoDB Database we did not cover during class.
+- Applied the knowledge form the sixteen(16)-week coarse at DigitalCrafts Bootcamp to incorporated that knowledge into using MangoDB Database we did not cover during class. -->
 
 ## Capstone Project Credits Go To The Following Builders
  
-- Full-Stack Developer:[Brittani Ericksen](https://github.com/brittani-ericksen) Front-End, LOGO-Design and WireFrame Layout.
-- Full-Stack Developer:[Justin Gardner](https://github.com/JustinSGardner) Back-End, Design-Styles and Design-Ideas.
-- Full-Stack Developer:[Chris Owens](https://github.com/chrisowensdev) Back-End, Design-Implementations and Deployment.
-- Full-Stack Developer:[Ryan Schniederjan](https://github.com/rynoschni) PM/Scrum Master, including coding and LayoutWireFrames.
-- Full-Stack Developer:[Annemarie Thomas](https://github.com/Athomas9sa) Front-End, Master Layout Components and ReadMe-Files.
+- Full-Stack Developer:[Eric Treadway](https://github.com/etreadway) SCRUM Master, Routing, Design-Ideas, and Deployment.
+- Full-Stack Developer:[Vasilios Kambouras](https://github.com/Vasilioskw) Documentation, Front-end, Design-Styles, and Design-Implementations.
+- Full-Stack Developer:[Daniel Lanihan](https://github.com/drlenny) Back-End, Databae setup, and Database-Maintenance/Implementations
+- Full-Stack Developer:[Alex](https://github.com/chrisowensdev) Potato 🥔
 
 ## GitHub Project Links:
-
+ADD STUFF HERE
 **[Frontend Design](https://github.com/brittani-ericksen/capstone-frontend/tree/main)**
           &
 **[Backend Build](https://github.com/JustinSGardner/CapStoneProject-Backend/tree/main)**
