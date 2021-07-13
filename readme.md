@@ -10,7 +10,7 @@
  WOL APP was built to address the challenges the fitness community and individuals face, due to a lack out tools that can help structure a diverse work-out routine. The WOL App lets YOU choose from a range of work-outs that can be structured in a personal list, and further costumized into sets, with different variable per set (such as weight, time, and more).
 
 <p align="center">
-<a href="" rel="" target="_blank"><img src="https://images.macrumors.com/t/gtpMBEmqW_eQq6FynfZG_J5ng0U=/1600x0/filters:quality(90)/article-new/2017/09/streaksworkoutapp-800x469.jpg" alt="SquadMate Intro"></a>
+<a href="" rel="" target="_blank"><img src="https://image.shutterstock.com/shutterstock/photos/261278588/display_1500/stock-photo-beautiful-young-sporty-sexy-couple-isolated-over-white-background-261278588.jpg" alt="SquadMate Intro"></a>
   
  **[SquadMateDemo]()**
 </p>
