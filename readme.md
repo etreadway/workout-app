@@ -1,13 +1,13 @@
+<!-- LOGO GOES HERE -->
 <p align="center">
-  <a href="" rel="" target="_blank"><img width="150" src="https://github.com/brittani-ericksen/SquadMate-Frontend/blob/main/public/squadmatelogo.png" alt="SquadMate Logo"></a></p>
+  <a href="" rel="" target="_blank"><img width="150" src="https://images.macrumors.com/t/gtpMBEmqW_eQq6FynfZG_J5ng0U=/1600x0/filters:quality(90)/article-new/2017/09/streaksworkoutapp-800x469.jpg" alt="SquadMate Logo"></a></p>
 </p>
 
-<h1 align="center">SquadMate</h1>
-<h2 align="center">The Ultimate Coaches ToolBox</h2>
+<h1 align="center">WOL APP</h1>
+<h2 align="center">The Work Out List App</h2>
 </div>
 
- SquadMate was built to address the challenges a team manager faces regarding communication between themselves and the teams they lead.The application stores data on member registration, medical information and any important documents needed to be prepared for upcoming events. This application can be used by a wide variety of groups for different events.
-
+ WOL APP was built to address the challenges the fitness community and individuals face, due to a lack out tools that can help structure a diverse work-out routine. The WOL App lets YOU choose from a range of work-outs that can be structured in a personal list, and further costumized into sets, with different variable per set (such as weight, time, and more).
 
 <p align="center">
 <a href="" rel="" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/capstoneupload.appspot.com/o/intro-screen.png?alt=media&token=e98fc3f7-fe3e-4a02-a7d1-e1ffab768a2b" alt="SquadMate Intro"></a>
@@ -190,3 +190,8 @@ These great services support SquadMate's core infrastructure:
 
 ## The End.
  
+ <!-- WOL App: The Work Out List App -->
+
+The WOL App is a great way to customize your work-outs. Most work out apps give you a pre-made routine, we're different. The WOL App lets YOU choose from a range of work-outs and put together your own routine from our list of workouts.
+
+This app utilizes relational data by taking and array of workouts and allowing the individual user to move it into their routine list. We may add other ways to use this data that can helps users on this platform.
