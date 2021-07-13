@@ -1,6 +1,6 @@
 <!-- LOGO GOES HERE -->
 <p align="center">
-  <a href="" rel="" target="_blank"><img width="150" src="https://www.shutterstock.com/image-photo/beautiful-young-sporty-sexy-couple-isolated-261278588" alt="SquadMate Logo"></a></p>
+  <a href="" rel="" target="_blank"><img width="150" src="https://image.shutterstock.com/image-photo/beautiful-young-sporty-sexy-couple-600w-261278588.jpg" alt="SquadMate Logo"></a></p>
 </p>
 
 <h1 align="center">WOL APP</h1>
