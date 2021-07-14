@@ -97,9 +97,8 @@ EDIT THIS TOWARDS / AT COMPLETION
 ## Capstone Project Credits Go To The Following Builders
  
 - Full-Stack Developer:[Eric Treadway](https://github.com/etreadway) SCRUM Master, Routing, Design-Ideas, and Deployment.
-- Full-Stack Developer:[Vasilios Kambouras](https://github.com/Vasilioskw) Documentation, Front-end, Design-Styles, and Design-Implementations.
-- Full-Stack Developer:[Daniel Lanihan](https://github.com/drlenny) Back-End, Databae setup, and Database-Maintenance/Implementations
-<!-- - Full-Stack Developer:[Alex](https://github.com/chrisowensdev) -->
+- Full-Stack Developer:[Vasilios Kambouras](https://github.com/Vasilioskw) Documentation, Front-end, Design-Styles, CSS, and Design-Implementations.
+- Full-Stack Developer:[Daniel Lanihan](https://github.com/drlenny) Back-End, Database setup, and Database-Maintenance/Implementations.
 
 ## GitHub Project Links:
 ADD STUFF HERE
