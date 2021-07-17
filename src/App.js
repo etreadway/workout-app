@@ -1,10 +1,19 @@
-import './App.css';
-import HelloWorld from './components/HelloWorld';
+import { Switch, Route } from "react-router-dom";
+
+import Home from "./components/Home";
+import WorkoutList from "./components/workout-section-page/WorkoutList.jsx";
 
 function App() {
   return (
-    <div> 
-      <HelloWorld />
+    <div className="App">
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/routine">
+          <WorkoutList />
+        </Route>
+      </Switch>
     </div>
   );
 }
