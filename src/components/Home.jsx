@@ -6,11 +6,11 @@ function Home() {
   const url = 'http://localhost:3005/routines'
 
   const [loader, setLoader] = useState(false)
-  const [routines, setRoutines] = useState({
+  const [routines, setRoutines] = useState([{
     title: '',
     days: {},
     description: ''    
-  })
+  }])
 
   useEffect(() => {
     setLoader(true);
