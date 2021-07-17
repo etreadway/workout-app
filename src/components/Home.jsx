@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Loader from "./Loader";
 import Workout from "./Workout";
+import '../App.css';
+
 
 function Home() {
   const url = process.env.REACT_APP_URL || "http://localhost:3005/routines";
@@ -28,7 +30,7 @@ function Home() {
 
   return (
     <div>
-      <h1>The Work Out List App</h1>
+      <h1 className="Title1"> The Work Out List App</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis
         facilisis mauris, in tempor dolor laoreet vel. Nulla elit velit,
