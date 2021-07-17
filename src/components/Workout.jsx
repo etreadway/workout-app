@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 import React, {useState} from "react";
 // import {Grid, Row, Col} from "react-bootstrap";
-=======
-import React, { useEffect, useState } from "react";
->>>>>>> 78b2a59dc8166f7cf0ebd5a6e60d8d175010d460
+// import React, { useEffect, useState } from "react";
 
 function Workout(props) {
 
@@ -33,7 +30,6 @@ function Workout(props) {
     // console.log(workoutDays);
 
     return (
-        
         <div className="workout" onClick={handleClick}>
             <h3>{props.title}</h3>
             <p>{props.description}</p>
