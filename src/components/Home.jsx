@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 import React from "react";
 import Workout from "./Workout";
 // import './Homepage.css';
-=======
-import React, { useState, useEffect } from "react";
-import Loader from "./Loader";
-import Workout from "./Workout"
->>>>>>> 78b2a59dc8166f7cf0ebd5a6e60d8d175010d460
 
 function Home() {
   const url = 'http://localhost:3005/routines'
