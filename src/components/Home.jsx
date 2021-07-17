@@ -6,7 +6,11 @@ function Home() {
   const url = 'http://localhost:3005/routines'
 
   const [loader, setLoader] = useState(false)
-  const [routines, setRoutines] = useState([])
+  const [routines, setRoutines] = useState([{
+    title: '',
+    days: {},
+    description: ''    
+  }])
 
   useEffect(() => {
     setLoader(true);
@@ -26,9 +30,17 @@ function Home() {
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis facilisis mauris, in tempor dolor laoreet vel. Nulla elit velit, placerat sit amet lectus quis, pellentesque eleifend leo. Donec massa leo, venenatis nec mi sed, pretium tempor sapien. Donec ante orci, commodo sed ex nec, condimentum gravida tortor. Praesent vestibulum ante ut justo hendrerit, sit amet finibus tellus placerat</p>
       {!! routines !== [] ?
         (!!loader === true ? <Loader /> :
-          <Workout
-            data={routines}
+        routines.map((thisRoutine, index) => {
+          return (
+            <Workout
+            key={index}
+            title={thisRoutine.title}
+            days={thisRoutine.days}
+            description={thisRoutine.description}
           />
+          )
+        })
+
         ) : <Loader />
       }
     </div>
