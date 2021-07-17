@@ -28,7 +28,7 @@ function Home() {
 
   return (
     <div>
-      <h1>Workout App</h1>
+      <h1>The Work Out List App</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis
         facilisis mauris, in tempor dolor laoreet vel. Nulla elit velit,
