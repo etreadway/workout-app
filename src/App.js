@@ -10,7 +10,7 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/routine">
+        <Route path="/routine/:id/:day">
           <WorkoutList />
         </Route>
       </Switch>
