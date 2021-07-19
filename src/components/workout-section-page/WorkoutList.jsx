@@ -6,42 +6,48 @@ import { useParams } from 'react-router-dom'
 
 function WorkoutList() {
 
-  const [data, setData] = useState([{
-    title: '',
-    days: [{}],
-    description: ''
-  }])
-  const [thisDay, setThisDay] = useState([{
-    dayName: '',
-    sets: 0,
-    reps: 0,
-    weight: 0
-  }])
+  const [thisDay, setThisDay] = useState({})
   const { id, day } = useParams();
 
   // search local storage for routine with id and day store in variable
 
   const routines = JSON.parse(localStorage.getItem('routines'))
-  console.log(routines);
+  // console.log(routines);
 
-  useEffect(() => {
-    let result = routines.filter(obj => {
-      return obj._id === id
-    });
-    setData(result)
-    console.log(result);
-  }, [])
+  const selectedDay = routines.filter(obj => {
+    return obj._id === id
+  });
 
   // console.log(routines[0].days);
   // console.log(id);
   // console.log(day);
 
-  // console.log(data);
+  let allowed = [day]
+
+  let dayData = Object.keys(selectedDay[0].days)
+    .filter(key => allowed.includes(key))
+    .reduce((obj, key) => {
+      return {
+        ...obj,
+        [key]: selectedDay[0].days[key]
+      }
+    }, {})
+  console.log(dayData);
+
+  useEffect(() => {
+    setThisDay(dayData)
+  }, {})
+
+  console.log(thisDay);
+
+  // console.log(allowed);
+
+  // console.log(data[0].days);
 
   return (
     <center>
       <div style={{ width: '32rem', justifyContent: "center", marginTop: '2rem' }}>
-        <h1 className="workCard"> {data[0].title} </h1>
+        <h1 className="workCard"> {Object.keys(thisDay)[0]} </h1>
         <Card style={{ width: '32rem', textAlign: 'center' }}>
           <Card.Header> Exercise Name </Card.Header>
           <Card.Body>
