@@ -1,7 +1,7 @@
 import { Switch, Route } from "react-router-dom";
 
 import Home from "./components/Home";
-import WorkoutList from "./components/workout-section-page/WorkoutList.jsx";
+import WorkoutList from "./components/WorkoutList.jsx";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/routine">
+        <Route path="/routine/:id/:day">
           <WorkoutList />
         </Route>
       </Switch>
