@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
+import { Link } from 'react-router-dom'
 
 function Workout(props) {
 
@@ -34,7 +35,7 @@ function Workout(props) {
             <ul className={`workout-items ${isClicked ? "expand" : ""}`}>
             {workoutDays.map((item) => {
                 return(
-                    <li>{item}</li>
+                    <li><Link to={`/routine/${props.id}/${item}`}>{item}</Link></li>
                 )
             })}
             </ul>
