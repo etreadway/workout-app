@@ -1,0 +1,44 @@
+.App {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #9ac2f7;
+  }
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+  .App-header {
+    /* min-height: 100vh; */
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(8, 8, 70);
+  }
+
+  /* .App-link {
+    color: #232db1;
+  } */
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  h1 {
+    font-size: 40px;
+
+  }
+
+  p {
+    font-size: 20px;
+  }
