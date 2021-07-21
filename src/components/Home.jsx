@@ -29,10 +29,14 @@ function Home() {
   return (
     <div>
       <h1>Workout App</h1>
-      <p>
-      Welcome to The Personal Workout App! Go ahead and start customizing your routine.
+     
+      <h4>Welcome to The Personal Workout Assistant! </h4>
 
-      </p>
+      <h4> Go ahead and start customizing your routine.</h4>
+
+      <h4>Click a the card and choose a workout day to get stated.</h4>
+
+    
       {!!routines !== [] ? (
         !!loader === true ? (
           <Loader />
