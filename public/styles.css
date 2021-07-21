@@ -136,3 +136,13 @@ body {
     margin-left: 1rem;
     font-size: 1.5rem !important;
 }
+
+.workCard{
+    font-size: 47px;
+    font-variant: small-caps;
+    color: azure;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-shadow: 0 2px 3px #ccc;
+    font-weight: bolder;
+}
