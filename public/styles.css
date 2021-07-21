@@ -10,6 +10,11 @@
     text-align: center;
 }
 
+body {
+    background-color: #82baff !important;
+    background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
+}
+
 .workout {
     background: #fff;
     border-radius: 7px;
@@ -52,8 +57,6 @@
 
 .App {
     padding-bottom: 5rem;
-    background-color: #82baff !important;
-    background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
 }
 
 @media (prefers-reduced-motion: no-preference) {
