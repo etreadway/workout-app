@@ -95,7 +95,6 @@ body {
     font-variant: small-caps;
     color: azure;
     text-decoration: underline;
-    text-decoration-style: dotted;
     text-shadow: 0 2px 5px #ccc;
     font-weight: bolder;
 }
@@ -120,8 +119,6 @@ body {
     margin-top: 1rem;
     border-bottom: solid 3px #ffffff;
     padding: 3rem;
-    border-bottom-style: dotted;
-    border-bottom-width: thick;
     font-weight: bold;
 }
 
@@ -142,7 +139,6 @@ body {
     font-variant: small-caps;
     color: azure;
     text-decoration: underline;
-    text-decoration-style: dotted;
     text-shadow: 0 2px 3px #ccc;
     font-weight: bolder;
 }
