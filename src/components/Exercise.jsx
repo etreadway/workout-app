@@ -24,7 +24,7 @@ function Exercise(props) {
                 <Card.Body>
                     {_.times(count, (index) => {
                         return (
-                            <div>
+                            <div key={index}>
                                 <h1> Set {index + 1} </h1>
                                 <Card.Title>
                                     <Form>
@@ -70,8 +70,8 @@ function Exercise(props) {
                             </div>
                         );
                     })}
-                    <Button variant="primary" onClick={increase}>Add Set</Button>
-                    <Button variant="primary" onClick={decrease}>Remove Set</Button>
+                    <Button variant="primary" onClick={increase} className='add-set'>Add Set</Button>
+                    <Button variant="primary" onClick={decrease} className='remove-set'>Remove Set</Button>
                 </Card.Body>
                 <br />
             </Card>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
-import { Card, Button, Form, Container, Row, Col } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 function Workout(props) {
 
@@ -36,9 +36,9 @@ function Workout(props) {
             </Card.Header>
             <p>{props.description}</p>
             <ul className={`workout-items ${isClicked ? "expand" : ""}`}>
-                {workoutDays.map((item) => {
+                {workoutDays.map((item, index) => {
                     return (
-                        <li className='exercise-link'><Link to={`/routine/${props.id}/${item}`}>{item}</Link></li>
+                        <li className='exercise-link' key={index}><Link to={`/routine/${props.id}/${item}`}>{item}</Link></li>
                     )
                 })}
             </ul>

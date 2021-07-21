@@ -42,7 +42,7 @@ function WorkoutList() {
 
   useEffect(() => {
     setThisDay(exerciseArr)
-  }, {})
+  }, [])
 
   console.log(thisDay);
   // thisDay.map((exercise, index) => {

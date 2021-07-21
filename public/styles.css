@@ -6,12 +6,6 @@
     font-family: sans-serif;
 }
 
-body {
-    background-color: #82baff !important;
-    background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
-}
-
-
 .workout-container {
     text-align: center;
 }
@@ -58,6 +52,8 @@ body {
 
 .App {
     padding-bottom: 5rem;
+    background-color: #82baff !important;
+    background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -124,4 +120,16 @@ body {
     border-bottom-style: dotted;
     border-bottom-width: thick;
     font-weight: bold;
+}
+
+.add-set{
+    margin-right: 1rem;
+    margin-left: auto;
+    font-size: 1.5rem !important
+}
+
+.remove-set{
+    margin-right: auto;
+    margin-left: 1rem;
+    font-size: 1.5rem !important;
 }
