@@ -39,12 +39,10 @@ function Exercise(props) {
                                                 <Col>
                                                     <Form.Group controlId="exampleForm.ControlSelect1">
                                                         <Form.Label>Weight</Form.Label>
-                                                        <Form.Control as="select">
-                                                            <option>{props.exercise[1][1]} lbs</option>
-                                                            <option>125 lbs</option>
-                                                            <option>125 lbs</option>
-                                                            <option>125 lbs</option>
-                                                            <option>125 lbs</option>
+                                                        <Form.Control as="text">
+                                                            {/* <option>{props.exercise[1][1]} lbs</option> */}
+                                                            {/* <Form.Label>Email address</Form.Label> */}
+                                                            <Form.Control type="text" placeholder= {props.exercise[1][1] +" lbs"} />
 
 
                                                         </Form.Control>
@@ -54,13 +52,10 @@ function Exercise(props) {
                                                 <Col>
                                                     <Form.Group controlId="exampleForm.ControlSelect1">
                                                         <Form.Label>Reps</Form.Label>
-                                                        <Form.Control as="select">
-                                                            <option>{props.exercise[1][0]}</option>
-                                                            <option>4</option>
-                                                            <option>3</option>
-                                                            <option>2</option>
-                                                            <option>1</option>
-                                                            <option>0</option>
+                                                        <Form.Control as="text">
+                                                            {/* <option>{props.exercise[1][0]}</option> */}
+                                                            <Form.Control type="text" placeholder={props.exercise[1][0]} />
+
 
                                                         </Form.Control>
                                                     </Form.Group>
