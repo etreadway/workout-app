@@ -18,14 +18,14 @@ function Exercise(props) {
     console.log(props.exercise[1][0]);
 
     return (
-        <div style={{ width: '32rem', justifyContent: "center", marginTop: '2rem' }}>
-            <Card style={{ width: '32rem', textAlign: 'center' }}>
+        <div style={{ width: '40rem', justifyContent: "center", marginTop: '2rem' }}>
+            <Card style={{ width: '40rem', textAlign: 'center' }}>
                 <Card.Header> {props.exercise[0]} </Card.Header>
                 <Card.Body>
                     {_.times(count, (index) => {
                         return (
-                            <div key={index}>
-                                <h1> Set {index + 1} </h1>
+                            <div key={index} className='set'>
+                                <h1 className='set-number'> Set {index + 1} </h1>
                                 <Card.Title>
                                     <Form>
 
@@ -65,13 +65,14 @@ function Exercise(props) {
 
                                     </Form>
                                 </Card.Title>
-                                <br />
 
                             </div>
                         );
                     })}
+                    <div className='set-buttons'>
                     <Button variant="primary" onClick={increase} className='add-set'>Add Set</Button>
                     <Button variant="primary" onClick={decrease} className='remove-set'>Remove Set</Button>
+                    </div>
                 </Card.Body>
                 <br />
             </Card>

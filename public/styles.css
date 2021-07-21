@@ -112,7 +112,7 @@ body {
     color: rgba(0, 0, 0, 0.65);
 }
 
-.workout .card-header {
+.card-header {
     background-color: rgb(85 98 179 / 44%) !important;
 }
 
@@ -145,4 +145,25 @@ body {
     text-decoration-style: dotted;
     text-shadow: 0 2px 3px #ccc;
     font-weight: bolder;
+}
+
+.set {
+    border-bottom: solid 3px #ccc;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.set-buttons{
+    margin-top: 2rem;
+}
+
+.card .card-header{
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.set-number{
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-bottom: 1.3rem;
 }
