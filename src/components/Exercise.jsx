@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Button, Form, Container, Row, Col } from 'react-bootstrap';
-import './Workoutpage.CSS';
 import _ from 'lodash'
-import { useEffect } from 'react';
 
 function Exercise(props) {
 
@@ -17,20 +15,17 @@ function Exercise(props) {
         setCount(count - 1);
     }
 
-
-
-
     console.log(props.exercise[1][0]);
 
     return (
-        <div style={{ width: '32rem', justifyContent: "center", marginTop: '2rem' }}>
-            <Card style={{ width: '32rem', textAlign: 'center' }}>
+        <div style={{ width: '40rem', justifyContent: "center", marginTop: '2rem' }}>
+            <Card style={{ width: '40rem', textAlign: 'center' }}>
                 <Card.Header> {props.exercise[0]} </Card.Header>
                 <Card.Body>
                     {_.times(count, (index) => {
                         return (
-                            <div>
-                                <h1> Set {index + 1} </h1>
+                            <div key={index} className='set'>
+                                <h1 className='set-number'> Set {index + 1} </h1>
                                 <Card.Title>
                                     <Form>
 
@@ -39,12 +34,10 @@ function Exercise(props) {
                                                 <Col>
                                                     <Form.Group controlId="exampleForm.ControlSelect1">
                                                         <Form.Label>Weight</Form.Label>
-                                                        <Form.Control as="select">
-                                                            <option>{props.exercise[1][1]} lbs</option>
-                                                            <option>125 lbs</option>
-                                                            <option>125 lbs</option>
-                                                            <option>125 lbs</option>
-                                                            <option>125 lbs</option>
+                                                        <Form.Control as="text">
+                                                            {/* <option>{props.exercise[1][1]} lbs</option> */}
+                                                            {/* <Form.Label>Email address</Form.Label> */}
+                                                            <Form.Control type="text" placeholder= {props.exercise[1][1] +" lbs"} />
 
 
                                                         </Form.Control>
@@ -54,13 +47,10 @@ function Exercise(props) {
                                                 <Col>
                                                     <Form.Group controlId="exampleForm.ControlSelect1">
                                                         <Form.Label>Reps</Form.Label>
-                                                        <Form.Control as="select">
-                                                            <option>{props.exercise[1][0]}</option>
-                                                            <option>4</option>
-                                                            <option>3</option>
-                                                            <option>2</option>
-                                                            <option>1</option>
-                                                            <option>0</option>
+                                                        <Form.Control as="text">
+                                                            {/* <option>{props.exercise[1][0]}</option> */}
+                                                            <Form.Control type="text" placeholder={props.exercise[1][0]} />
+
 
                                                         </Form.Control>
                                                     </Form.Group>
@@ -70,13 +60,14 @@ function Exercise(props) {
 
                                     </Form>
                                 </Card.Title>
-                                <br />
 
                             </div>
                         );
                     })}
-                    <Button variant="primary" onClick={increase}>Add Set</Button>
-                    <Button variant="primary" onClick={decrease}>Remove Set</Button>
+                    <div className='set-buttons'>
+                    <Button variant="primary" onClick={increase} className='add-set'>Add Set</Button>
+                    <Button variant="primary" onClick={decrease} className='remove-set'>Remove Set</Button>
+                    </div>
                 </Card.Body>
                 <br />
             </Card>
