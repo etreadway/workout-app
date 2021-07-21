@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card, Button, Form, Container, Row, Col } from 'react-bootstrap';
-import './Workoutpage.CSS';
 import { useParams } from 'react-router-dom'
 import Exercise from './Exercise'
+
 
 function WorkoutList() {
 

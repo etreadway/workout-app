@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { Card, Button, Form, Container, Row, Col } from 'react-bootstrap';
 
 function Workout(props) {
 
@@ -30,14 +31,16 @@ function Workout(props) {
 
     return (
         <div className="workout" onClick={handleClick}>
-            <h3>{props.title}</h3>
+            <Card.Header>
+                <h3>{props.title}</h3>
+            </Card.Header>
             <p>{props.description}</p>
             <ul className={`workout-items ${isClicked ? "expand" : ""}`}>
-            {workoutDays.map((item) => {
-                return(
-                    <li><Link to={`/routine/${props.id}/${item}`}>{item}</Link></li>
-                )
-            })}
+                {workoutDays.map((item) => {
+                    return (
+                        <li className='exercise-link'><Link to={`/routine/${props.id}/${item}`}>{item}</Link></li>
+                    )
+                })}
             </ul>
         </div>
     )

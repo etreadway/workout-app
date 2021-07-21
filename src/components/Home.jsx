@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Loader from "./Loader";
 import Workout from "./Workout";
-import '../App.css';
 
 
 function Home() {
@@ -34,8 +33,8 @@ function Home() {
 
   return (
     <div>
-      <h1 className="Title1"> The Work Out List App</h1>
-      <p>
+      <h1 className="Title1"> Personal Workout Assistant</h1>
+      <p className='description'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis
         facilisis mauris, in tempor dolor laoreet vel. Nulla elit velit,
         placerat sit amet lectus quis, pellentesque eleifend leo. Donec massa
@@ -43,6 +42,7 @@ function Home() {
         commodo sed ex nec, condimentum gravida tortor. Praesent vestibulum ante
         ut justo hendrerit, sit amet finibus tellus placerat
       </p>
+      <div className='workout-container'>
       {!!routines !== [] ? (
         !!loader === true ? (
           <Loader />
@@ -62,6 +62,7 @@ function Home() {
       ) : (
         <Loader />
       )}
+      </div>
     </div>
   );
 }

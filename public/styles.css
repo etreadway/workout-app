@@ -2,10 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-align: center;
+    font-family: sans-serif;
 }
 
-html {
-    font-family: "Montserrat", sans-serif;
+body {
+    background-color: #82baff !important;
+    background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
+}
+
+
+.workout-container {
+    text-align: center;
 }
 
 .workout {
@@ -15,14 +23,105 @@ html {
     padding: 10px;
     width: 240px;
     margin: 16px;
-    float: left;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .workout-items {
     display: none;
     transition: all ease .3s;
+    font-size: 18px;
+    list-style-type: none;
+    border-top: solid 3px #98a3f18a;
+    padding: 0;
+    margin-top: 2rem;
+    font-variant: small-caps;
+}
+
+.exercise-link{
+    margin-top: 2rem;
+}
+
+.exercise-link a {
+    color: black;
+    text-decoration: none;
 }
 
 .workout-items.expand {
     display: block;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App {
+    padding-bottom: 5rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        /* animation: App-logo-spin infinite 20s linear; */
+    }
+}
+
+.App-header {
+    /* min-height: 100vh; */
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(8, 8, 70);
+}
+
+/* .App-link {
+    color: #232db1;
+  } */
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.Title1 {
+    font-size: 47px;
+    font-variant: small-caps;
+    color: azure;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-shadow: 0 2px 5px #ccc;
+    font-weight: bolder;
+}
+
+.workout p {
+    font-size: 16px;
+    margin-top: 1.5rem;
+}
+
+.workout h3 {
+    margin: auto;
+    font-weight: bolder;
+    font-variant: small-caps;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.workout .card-header {
+    background-color: rgb(85 98 179 / 44%) !important;
+}
+
+.description {
+    margin-top: 1rem;
+    border-bottom: solid 3px #ffffff;
+    padding: 3rem;
+    border-bottom-style: dotted;
+    border-bottom-width: thick;
+    font-weight: bold;
 }

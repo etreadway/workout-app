@@ -1,6 +1,4 @@
 import { Switch, Route } from "react-router-dom";
-import logo from './logo.svg';
-import './App.css';
 import Home from "./components/Home";
 import WorkoutList from "./components/WorkoutList.jsx";
 

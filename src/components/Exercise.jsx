@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Button, Form, Container, Row, Col } from 'react-bootstrap';
-import './Workoutpage.CSS';
 import _ from 'lodash'
-import { useEffect } from 'react';
 
 function Exercise(props) {
 
@@ -16,9 +14,6 @@ function Exercise(props) {
     function decrease() {
         setCount(count - 1);
     }
-
-
-
 
     console.log(props.exercise[1][0]);
 
