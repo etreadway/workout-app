@@ -95,7 +95,6 @@ body {
     font-variant: small-caps;
     color: azure;
     text-decoration: underline;
-    text-decoration-style: dotted;
     text-shadow: 0 2px 5px #ccc;
     font-weight: bolder;
 }
@@ -112,7 +111,7 @@ body {
     color: rgba(0, 0, 0, 0.65);
 }
 
-.workout .card-header {
+.card-header {
     background-color: rgb(85 98 179 / 44%) !important;
 }
 
@@ -120,12 +119,8 @@ body {
     margin-top: 1rem;
     border-bottom: solid 3px #ffffff;
     padding: 3rem;
-    border-bottom-style: dotted;
-    /* border-bottom-width: thick; */
-    /* font-weight: bold; */
+    font-weight: bold;
     color: azure;
-    /* text-shadow: 0 2px 5px #ccc; */
-    /* font-weight: bolder; */
 }
 
 .add-set{
@@ -145,7 +140,27 @@ body {
     font-variant: small-caps;
     color: azure;
     text-decoration: underline;
-    text-decoration-style: dotted;
     text-shadow: 0 2px 3px #ccc;
     font-weight: bolder;
+}
+
+.set {
+    border-bottom: solid 3px #ccc;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.set-buttons{
+    margin-top: 2rem;
+}
+
+.card .card-header{
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.set-number{
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-bottom: 1.3rem;
 }
