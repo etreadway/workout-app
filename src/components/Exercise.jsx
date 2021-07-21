@@ -43,7 +43,6 @@ function Exercise(props) {
                                                             {/* <option>{props.exercise[1][1]} lbs</option> */}
                                                             {/* <Form.Label>Email address</Form.Label> */}
                                                             <Form.Control type="text" placeholder= {props.exercise[1][1] +" lbs"} />
-                                                            <Form.Control placeholder=" lbs" />
 
 
                                                         </Form.Control>
